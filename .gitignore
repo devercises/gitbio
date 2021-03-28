@@ -1,2 +1,5 @@
 .vscode
 __pycache__
+gitbio.egg-info
+dist
+build/**
