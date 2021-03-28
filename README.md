@@ -8,15 +8,18 @@ project that shows your bio (or every person) from GitHub in CLI.
 
 ## Getting Started
 
-### Linux
+### Ready To Use
 
-- Clone this repo and run: `pip3 install -r requirements.txt` in main directory
-- run python file with `python gitbio.py`
-- optionally: compile and add to path:
-    - compile with: `chmod +x gitbio.py`
-    - copy script to clis directory (optionally, but recommended): `cp ./gitbio.py ~/<your_clis_dir>`
-    - add `gitbio` to path, adding your clis dir to path in your shell config file: `export PATH=/home/<your_username>/<your_clis_dir>:$PATH`
+Just run `pip install gitbio` (Windows) or `pip3 install gitbio` (Linux/MacOS). Then run `gitbio` command.
 
 ## Contributing
 
-This project is only for training purposes, but contributions are welcome.
+If You have problem with running this project using `python gitbio.py` or You want to add new features, you can:
+- Create Issue On This Repo
+- Fix Problem Using Pull Request. please, follow [these instructions](https://github.com/firstcontributions/first-contributions)
+
+Thanks for support. If there will be more contributing people, I will add list of contributors.
+
+## License
+
+This Project is licensed under the MIT License.
