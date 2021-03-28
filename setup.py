@@ -10,12 +10,13 @@ entry_points = {
 
 setup(
     name="gitbio",
-    version="1.0.0",
+    version="1.0.1",
     author="Devercises",
     description="project that shows your bio (or every person) from GitHub in CLI.",
     license="MIT",
     keywords=["github", "cli", "apis"],
     url="https://github.com/devercises/gitbio",
     packages=find_packages(),
-    long_description=read("README.md")
+    long_description=read("README.md"),
+    long_description_content_type='text/markdown'
 )
